@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f0">
+  <meta name="description" content="딜메이트는 중고 매물 비교와 판매자 문의·답변 정리를 돕는 AI 구매 도우미를 구상하고 있습니다. 현재 아이디어 구체화 단계입니다.">
+  <title>딜메이트 — 중고 구매를 돕는 AI 메이트</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 바로가기</a>
+
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="logo" href="#main" aria-label="딜메이트 처음으로">
+        <img src="/favicon.svg" width="28" height="28" alt="">
+        <span>딜메이트</span>
+      </a>
+      <nav class="nav" aria-label="페이지 안내">
+        <a href="#problem">고객의 문제</a>
+        <a href="#solution">해결 방식</a>
+        <a href="#flow">이용 흐름</a>
+        <a href="#stage">현재 단계</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <p class="badge"><span class="dot" aria-hidden="true"></span>아이디어 구체화 단계</p>
+      <h1 id="hero-title">중고 매물 비교부터<br>판매자 문의 정리까지,<br><em>구매를 돕는 AI 메이트</em></h1>
+      <p class="lead">딜메이트는 여러 매물의 정보와 판매자 답변을 한곳에 모아, 무엇이 확인됐고 무엇을 더 물어봐야 하는지 정리해 주는 서비스를 구상하고 있습니다.</p>
+      <p class="notice">아직 이용할 수 있는 서비스는 없습니다. 이 페이지는 준비 중인 서비스의 방향을 소개합니다.</p>
+
+      <figure class="mock" aria-label="구상 예시: 중고 노트북 후보 두 개의 확인 항목을 정리한 화면">
+        <div class="mock-head">
+          <span class="mock-title">노트북 후보 정리</span>
+          <span class="mock-tag">구상 예시</span>
+        </div>
+        <div class="mock-cols" role="presentation">
+          <div class="mock-col">
+            <p class="mock-name">후보 A</p>
+            <ul>
+              <li><span class="st ok">게시글</span>사양</li>
+              <li><span class="st ok">판매자 답변</span>배터리 상태</li>
+              <li><span class="st q">미확인</span>구성품</li>
+            </ul>
+          </div>
+          <div class="mock-col">
+            <p class="mock-name">후보 B</p>
+            <ul>
+              <li><span class="st ok">게시글</span>사양</li>
+              <li><span class="st q">미확인</span>하자 여부</li>
+              <li><span class="st q">미확인</span>배송비</li>
+            </ul>
+          </div>
+        </div>
+        <p class="mock-next">다음에 물어볼 질문 3개</p>
+        <figcaption>이해를 돕기 위한 구상 예시이며, 실제 서비스 화면이 아닙니다.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section wrap" id="problem" aria-labelledby="problem-title">
+      <p class="eyebrow">고객의 문제</p>
+      <h2 id="problem-title">좋은 매물을 찾은 뒤에도<br>할 일이 많습니다</h2>
+      <div class="cards">
+        <article class="card">
+          <span class="num" aria-hidden="true">1</span>
+          <h3>여러 매물을 오가며 비교해야 해요</h3>
+          <p>가격, 상태, 구성품, 배송비가 판매글마다 다르게 적혀 있어 같은 기준으로 맞춰 보기 어렵습니다.</p>
+        </article>
+        <article class="card">
+          <span class="num" aria-hidden="true">2</span>
+          <h3>무엇을 물어봐야 할지 막막해요</h3>
+          <p>게시글에 없는 하자, 사용 기간, 실측, 추가 사진처럼 꼭 확인할 내용을 빠뜨리기 쉽습니다. 문의와 가격 제안이 부담스러운 초보자라면 더 그렇습니다.</p>
+        </article>
+        <article class="card">
+          <span class="num" aria-hidden="true">3</span>
+          <h3>판매자 답변이 흩어져요</h3>
+          <p>여러 판매자와 대화하다 보면 어떤 내용을 확인했고 무엇이 남았는지 다시 정리하게 됩니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section band" id="solution" aria-labelledby="solution-title">
+      <div class="wrap">
+        <p class="eyebrow">해결 방식</p>
+        <h2 id="solution-title">흩어진 정보를<br>하나의 구매 작업으로</h2>
+        <p class="sub">딜메이트는 검색이나 문장 작성만이 아니라, 여러 매물과 판매자 답변을 쌓아 가며 다음에 할 일을 정리하는 데 집중합니다.</p>
+        <ul class="points">
+          <li>
+            <h3>같은 기준으로 비교</h3>
+            <p>내가 찾은 매물 정보를 붙여 넣으면 가격·상태·거래 조건을 나란히 놓고 내 조건에 맞는지 표시합니다.</p>
+          </li>
+          <li>
+            <h3>확인된 것과 미확인을 구분</h3>
+            <p>항목마다 ‘게시글 기재 / 판매자 답변 / 미확인’으로 나눕니다. 답하지 않은 내용을 문제없다고 넘겨짚지 않습니다.</p>
+          </li>
+          <li>
+            <h3>다음 질문과 문안 준비</h3>
+            <p>빠진 내용을 묻는 질문과, 내가 정한 가격 범위 안의 협상 문안을 초안으로 준비합니다.</p>
+          </li>
+          <li>
+            <h3>총구매비용과 남은 확인 사항</h3>
+            <p>배송비 등 추가 비용을 더해 보고, 아직 모르는 금액은 따로 표시합니다.</p>
+          </li>
+        </ul>
+        <div class="principles">
+          <p class="principles-title">구상 원칙</p>
+          <ul>
+            <li>최종 구매 확정과 결제는 구매자가 직접 합니다.</li>
+            <li>판매자에게 보내는 메시지는 구매자가 검토하고 직접 보냅니다.</li>
+            <li>중고거래 앱의 비밀번호나 인증 정보는 받지 않습니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="flow" aria-labelledby="flow-title">
+      <p class="eyebrow">이용 흐름 (구상)</p>
+      <h2 id="flow-title">조건 설정부터<br>결정까지 다섯 단계</h2>
+      <ol class="steps">
+        <li>
+          <h3>구매 조건 정하기</h3>
+          <p>원하는 물품, 예산, 지역, 상태, 거래 방식과 목표 가격을 정합니다.</p>
+        </li>
+        <li>
+          <h3>찾은 매물 비교하기</h3>
+          <p>중고거래 앱에서 직접 찾은 매물의 글과 사진을 붙여 넣으면, 후보별 차이와 조건 충족 여부를 정리합니다.</p>
+        </li>
+        <li>
+          <h3>문의 초안 받아 직접 보내기</h3>
+          <p>판매 여부, 하자, 구성품 등 물어볼 질문을 초안으로 받아 앱에서 직접 보냅니다.</p>
+        </li>
+        <li>
+          <h3>답변 정리와 후속 질문</h3>
+          <p>받은 답변을 입력하면 확인된 것과 남은 것을 나누고, 후속 질문이나 가격 제안 문안을 준비합니다.</p>
+        </li>
+        <li>
+          <h3>내가 직접 결정하기</h3>
+          <p>매물별 확인 정보, 총구매비용, 남은 확인 사항을 보고 구매 여부를 직접 결정합니다.</p>
+        </li>
+      </ol>
+      <p class="flow-note">새 매물 자동 알림이나 판매자 자동 연락은 중고거래 플랫폼이 공식적으로 허용하는 범위를 확인한 뒤에만 검토합니다.</p>
+    </section>
+
+    <section class="section wrap" id="stage" aria-labelledby="stage-title">
+      <div class="stage">
+        <p class="badge"><span class="dot" aria-hidden="true"></span>지금 딜메이트는</p>
+        <h2 id="stage-title">아이디어를 구체화하고 있습니다</h2>
+        <ol class="timeline">
+          <li class="now"><span>지금</span>구매자의 문제와 이용 흐름 정리</li>
+          <li><span>다음 계획</span>중고 노트북 구매 예정자부터 실제 고민을 듣고 필요성 확인</li>
+          <li><span>그 이후</span>확인한 내용을 기능과 이용 조건에 반영</li>
+        </ol>
+        <p class="stage-note">현재 출시된 서비스, 이용 요금, 이용 후기는 없습니다. 기능과 이용 조건은 검증 과정에서 정해집니다.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-inner">
+      <span>© 2026 Dealmate</span>
+      <span>아이디어 구체화 단계 · 서비스 준비 중</span>
+    </div>
+  </footer>
+</body>
+</html>
